@@ -35,25 +35,27 @@
   }
   .section {
     padding: 94px 0;
+    
+    &__title {
+      margin-bottom: 50px;
+    
+      font-weight: 700;
+      font-size: 36px;
+      color: $title-text-color;
+      text-align: center;
+      line-height: 1.16;
+    }
   }
   
-  .section__title {
-    margin-bottom: 50px;
-  
-    font-weight: 700;
-    font-size: 36px;
-    color: $title-text-color;
-    text-align: center;
-    line-height: 1.16;
-  }
   
   .container {
     width: 1200px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
+    &--flex {
+      display: flex;
+    }
   }
   
-  .container--flex {
-    display: flex;
-  }
+  

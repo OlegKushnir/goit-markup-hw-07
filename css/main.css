@@ -39,7 +39,6 @@ p {
 .section {
   padding: 94px 0;
 }
-
 .section__title {
   margin-bottom: 50px;
   font-weight: 700;
@@ -55,7 +54,6 @@ p {
   padding-left: 15px;
   padding-right: 15px;
 }
-
 .container--flex {
   display: flex;
 }
